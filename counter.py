@@ -6,6 +6,6 @@ def counter():
     for i in range(start, end+1, step):
         print(i)
         count += 1
-    print("The toatl number of multiples of {0} are {1}.".format(step, count-1))
+    print("The total number of multiples of {0} are {1}.".format(step, count-1))
 
 counter()
